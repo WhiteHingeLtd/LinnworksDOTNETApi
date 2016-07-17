@@ -4,10 +4,10 @@ namespace LinnworksAPI
 {
     public class FieldsFilter
     {
-        public List<TextFieldFilter> TextFields;
-        public List<BooleanFieldFilter> BooleanFields;
-        public List<NumericFieldFilter> NumericFields;
-        public List<DateFieldFilter> DateFields;
-        public List<ListFieldFilter> ListFields;
+        public List<TextFieldFilter> TextFields = new List<TextFieldFilter>();
+        public List<BooleanFieldFilter> BooleanFields = new List<BooleanFieldFilter>();
+        public List<NumericFieldFilter> NumericFields = new List<NumericFieldFilter>();
+        public List<DateFieldFilter> DateFields = new List<DateFieldFilter>();
+        public List<ListFieldFilter> ListFields = new List<ListFieldFilter>();
     }
 }
